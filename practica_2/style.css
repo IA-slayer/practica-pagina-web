@@ -1,20 +1,22 @@
 #first-box {
-    background-color: blue;
-    height: 150px;
-    width: 20%;
-    margin: 50px;
-    border: 4px;
-    border-style: dashed;
-    border-color: red;
-    padding: 75px 75px 75px 75px;
+    background-color: rgba(255, 0, 0, 0.904);
+    margin-top: 10%;
+    width: 550px;
+    height: 380px;
+    
+    
 }
 #second-box {
     background-color: blue;
-    height: 150px;
-    width: 20%;
-    margin: 50px;
-    border: 4px;
-    border-style: dashed;
-    border-color: red;
-    padding: 75px 75px 75px 75px;
+    
 }
+
+
+  .hover-effect {
+    color: #000; /* Color normal del texto */
+    transition: color 0.3s ease; /* Transición suave de color durante 0.3 segundos */
+  }
+
+  .hover-effect:hover {
+    color: #e9de4a; /* Color del texto al pasar el cursor */
+  }
